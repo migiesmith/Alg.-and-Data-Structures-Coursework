@@ -1,0 +1,17 @@
+package com.grant.smith;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		try{
+			VRSolution vrS = new VRSolution(new VRProblem("Test Data/rand00030prob.csv"));
+			vrS.oneRoutePerCustomerSolution();
+			vrS.writeOut("TEST");
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+		
+	}
+
+}

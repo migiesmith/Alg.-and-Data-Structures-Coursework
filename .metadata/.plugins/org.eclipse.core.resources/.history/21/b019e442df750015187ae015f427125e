@@ -1,0 +1,10 @@
+package com.grant.smith;
+
+import java.util.Comparator;
+
+class SavingsComparator implements Comparator<SavingsNode> {
+    @Override
+    public double compare(SavingsNode si, SavingsNode sj) {
+        return si.saving - sj.saving;
+    }
+}

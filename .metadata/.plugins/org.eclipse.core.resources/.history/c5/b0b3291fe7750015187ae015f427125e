@@ -1,0 +1,24 @@
+package com.grant.smith;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class Route extends ArrayList{
+
+	public void mergeRoutes(Route route2){
+		addAll(route2);
+	}
+
+	public double routeDemand(){
+		double demand = 0.0f;
+		Iterator<Customer> it = route.iterator();
+		Customer customer;
+		while(it.hasNext()){
+			customer = it.next();
+			demand += customer.c;
+		}
+		return demand;
+	}
+	
+}

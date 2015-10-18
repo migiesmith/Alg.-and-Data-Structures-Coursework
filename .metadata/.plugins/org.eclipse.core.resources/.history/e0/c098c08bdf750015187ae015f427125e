@@ -1,0 +1,9 @@
+package com.grant.smith;
+
+import java.util.Comparator;
+
+class SavingsComparator implements Comparator {
+	public int compare(SavingsNode si, SavingsNode sj) {
+		return si.saving < sj.saving ? -1 : si.saving == sj.saving ? 0 : 1;
+	}
+}
