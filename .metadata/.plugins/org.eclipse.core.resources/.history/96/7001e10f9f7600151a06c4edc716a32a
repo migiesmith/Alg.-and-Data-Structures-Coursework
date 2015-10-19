@@ -1,0 +1,36 @@
+package com.grant.smith;
+
+import java.util.List;
+
+public class MergeThread implements Runnable {
+
+	Customer ci;
+	Customer cj;
+	double saving;
+	VRSolution vrS;
+	
+	public void setValues(Customer ci, Customer cj, double saving, VRSolution vrS){
+		this.saving = saving;
+		this.ci = ci;
+		this.cj = cj;
+		this.vrS = vrS;
+	}
+	
+	public void run() {
+		Route route0 = vrS.routeWhereCustomerIsLast(ci);
+		if(route0 != null){
+			Route route2 = vrS.routeWhereCustomerIsFirst(cj);
+			if(route2 != null){
+				if(route0 != route2)
+				if (route0.routeDemand() + route2.routeDemand() <= vrS.prob.depot.c) { // if merge is feasible
+					// Merge the two routes
+					vrS.soln.remove(route0);
+					vrS.soln.remove(route2);
+					vrS.soln.add(route0.mergeRoutes(route2));
+					//merged = true;
+				}
+			}
+		}
+	}
+
+}

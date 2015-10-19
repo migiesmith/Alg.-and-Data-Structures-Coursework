@@ -4,27 +4,39 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+
 public class Route extends ArrayList<Customer>{
 
 	double demand = 0.0f;
+	private Customer start;
+	private Customer end;
 	
 	@Override
 	public boolean add(Customer c) {
 		demand += c.c;
+		if(size() == 0){
+			start = c;
+			end = c; 
+		}else{
+			start = get(0);
+			end = get(size()-1);
+		}
 		return super.add(c);
 	}
 	
 	public Route mergeRoutes(Route route2){
 		demand += route2.demand;
 		addAll(route2);
+		start = get(0);
+		end = get(size()-1);
 		return this;
 	}
 
 	public Customer getStart(){
-		return get(0);
+		return start;
 	}
 	public Customer getEnd(){
-		return get(size()-1);
+		return end;
 	}
 
 	public double routeDemand(){

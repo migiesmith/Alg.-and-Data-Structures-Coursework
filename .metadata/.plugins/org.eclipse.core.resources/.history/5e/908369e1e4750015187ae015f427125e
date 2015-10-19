@@ -1,7 +1,0 @@
-package com.grant.smith;
-
-import java.awt.List;
-
-public class Route extends List{
-
-}

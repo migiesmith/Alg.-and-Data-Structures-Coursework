@@ -1,13 +1,10 @@
 package com.grant.smith;
 
-import java.awt.geom.Point2D;
-
-
 
 public class SavingsNode implements Comparable<SavingsNode> {
 
 	// Requirements of the customer (number to be delivered)
-	public double saving;
+	public final double saving;
 	public final Customer ci, cj;
 	
 	public SavingsNode(Customer ci, Customer cj, double saving){

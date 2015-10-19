@@ -3,6 +3,7 @@ package com.grant.smith;
 import java.util.*;
 import java.io.*;
 
+
 public class VRSolution {
 	public VRProblem prob;
 	public List<Route>soln;
@@ -45,39 +46,21 @@ public class VRSolution {
 							merged = true;
 						}
 					}
-				}else{
-					Route route1 = routeWhereCustomerIsFirst(savingsNode.ci);
-					if(route1 != null){
-						Route route2 = routeWhereCustomerIsLast(savingsNode.cj);
-						if(route2 != null){
-							if(route1 == route2){ continue;}
-							if (route1.routeDemand() + route2.routeDemand() <= prob.depot.c) { // if merge is feasible
-								// Merge the two routes
-								soln.remove(route1);
-								soln.remove(route2);
-								soln.add(route2.mergeRoutes(route1));
-								merged = true;
-							}
-						}
-					}
 				}
-
-			}  
-		}
-
-
+			}
+		}	
 	}
 
 	private Route routeWhereCustomerIsLast(Customer c){
 		for(Route r : soln){
-			if(r.get(r.size()-1) == c) return r;
+			if(r.getEnd() == c) return r;
 		}
 		return null;
 	}
 
 	private Route routeWhereCustomerIsFirst(Customer c){
 		for(Route r : soln){
-			if(r.get(0) == c) return r;
+			if(r.getStart() == c) return r;
 		}
 		return null;
 	}
@@ -94,25 +77,24 @@ public class VRSolution {
 				if(r.getStart() != r.getEnd())
 					customers.add(r.getEnd());
 			}
-
 		}
 
 		List<SavingsNode> savings = new ArrayList<SavingsNode>();
-		for (int i=0; i < customers.size(); i++){
-			for (int j=i+1; j < customers.size()-1; j++){
+		for(int i = 0; i < customers.size(); i++){
+			for(int j = 0; j < customers.size(); j++){
+				if(i == j) continue;
 				Customer ci = customers.get(i);
 				Customer cj = customers.get(j);
 				double saving = (prob.depot.distance(ci)+prob.depot.distance(cj)) -ci.distance(cj) ;
 				if(saving > 0)
 					savings.add(new SavingsNode(ci,cj,saving));
 			}
-
 		}
 		Collections.sort(savings);
-		
+
 		return savings;
 	}
-	
+
 	//Calculate the total journey
 	public double solnCost(){
 		double cost = 0;
