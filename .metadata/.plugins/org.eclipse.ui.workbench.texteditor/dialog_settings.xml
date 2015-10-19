@@ -2,22 +2,23 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="routeDemand" key="selection"/>
+		<item value="SavingsNode" key="selection"/>
 		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="double"/>
+			<item value="remove"/>
 			<item value="routeDemand"/>
 			<item value="getDeman"/>
 			<item value="size"/>
 			<item value="left to att"/>
 			<item value="left"/>
 			<item value="reqd"/>
-			<item value="prob."/>
-			<item value="new Customer"/>
 		</list>
 		<list key="replacehistory">
+			<item value="SavingsNode"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

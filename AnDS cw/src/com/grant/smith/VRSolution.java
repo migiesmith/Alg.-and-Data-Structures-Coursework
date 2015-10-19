@@ -21,7 +21,7 @@ public class VRSolution {
 	}
 
 	//Students should implement another solution
-	public void testSolution(){
+	public void clarkWrightSolution(){
 		oneRoutePerCustomerSolution();
 
 
@@ -31,64 +31,53 @@ public class VRSolution {
 			merged = false;
 			List<SavingsNode> savings = getSavings();
 			for (SavingsNode savingsNode : savings) {
-				if (savingsNode.saving > 0) {
-					Route route0 = routeWhereCustomerIsLast(savingsNode.ci);
-					if(route0 != null){
-						Route route2 = routeWhereCustomerIsFirst(savingsNode.cj);
-						if(route2 != null){
-							if(route0 == route2){ continue;}
-							
-							if (route0.routeDemand() + route2.routeDemand() <= prob.depot.c) { // if merge is feasible
-								// Merge the two routes
-								soln.remove(route0);
-								soln.remove(route2);
-								soln.add(route0.mergeRoutes(route2));
-								merged = true;
-							}
+				Route route0 = routeWhereCustomerIsLast(savingsNode.ci);
+				if(route0 != null){
+					Route route2 = routeWhereCustomerIsFirst(savingsNode.cj);
+					if(route2 != null){
+						if(route0 == route2){ continue;}
+
+						if (route0.routeDemand() + route2.routeDemand() <= prob.depot.c) { // if merge is feasible
+							// Merge the two routes
+							soln.remove(route0);
+							soln.remove(route2);
+							soln.add(route0.mergeRoutes(route2));
+							merged = true;
 						}
-					}else{
-						Route route1 = routeWhereCustomerIsFirst(savingsNode.ci);
-						if(route1 != null){
-							Route route2 = routeWhereCustomerIsLast(savingsNode.cj);
-							if(route2 != null){
-								if(route1 == route2){ continue;}
-								if (route1.routeDemand() + route2.routeDemand() <= prob.depot.c) { // if merge is feasible
-									// Merge the two routes
-									soln.remove(route1);
-									soln.remove(route2);
-									soln.add(route1.mergeRoutes(route2));
-									merged = true;
-								}
+					}
+				}else{
+					Route route1 = routeWhereCustomerIsFirst(savingsNode.ci);
+					if(route1 != null){
+						Route route2 = routeWhereCustomerIsLast(savingsNode.cj);
+						if(route2 != null){
+							if(route1 == route2){ continue;}
+							if (route1.routeDemand() + route2.routeDemand() <= prob.depot.c) { // if merge is feasible
+								// Merge the two routes
+								soln.remove(route1);
+								soln.remove(route2);
+								soln.add(route2.mergeRoutes(route1));
+								merged = true;
 							}
 						}
 					}
 				}
+
 			}  
 		}
 
 
 	}
 
-
-
-
-
 	private Route routeWhereCustomerIsLast(Customer c){
-		Iterator<Route> it = soln.iterator();
-		Route route;
-		while(it.hasNext()){
-			route = it.next();
-			if(route.get(route.size()-1) == c) return route;
+		for(Route r : soln){
+			if(r.get(r.size()-1) == c) return r;
 		}
 		return null;
 	}
 
 	private Route routeWhereCustomerIsFirst(Customer c){
-		Iterator<Route> it = soln.iterator();
-		Route route;
-		while(it.hasNext()){
-			route = it.next();
-			if(route.get(0) == c) return route;
+		for(Route r : soln){
+			if(r.get(0) == c) return r;
 		}
 		return null;
 	}
@@ -100,31 +89,30 @@ public class VRSolution {
 		Route r;
 		while(it.hasNext()){
 			r = it.next();
-			customers.add(r.getStart());
-			if(r.getStart() != r.getEnd())
-				customers.add(r.getEnd());
+			if(r.demand < prob.depot.c){
+				customers.add(r.getStart());
+				if(r.getStart() != r.getEnd())
+					customers.add(r.getEnd());
+			}
 
 		}
 
 		List<SavingsNode> savings = new ArrayList<SavingsNode>();
 		for (int i=0; i < customers.size(); i++){
 			for (int j=i+1; j < customers.size()-1; j++){
-				if (i != j){
-					Customer ci = customers.get(i);
-					Customer cj = customers.get(j);
-					double saving = (prob.depot.distance(ci)+prob.depot.distance(cj)) -ci.distance(cj) ;
+				Customer ci = customers.get(i);
+				Customer cj = customers.get(j);
+				double saving = (prob.depot.distance(ci)+prob.depot.distance(cj)) -ci.distance(cj) ;
+				if(saving > 0)
 					savings.add(new SavingsNode(ci,cj,saving));
-				}
-
 			}
 
 		}
 		Collections.sort(savings);
+		
 		return savings;
 	}
-
-
-
+	
 	//Calculate the total journey
 	public double solnCost(){
 		double cost = 0;

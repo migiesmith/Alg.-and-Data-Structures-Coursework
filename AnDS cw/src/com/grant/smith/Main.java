@@ -10,14 +10,15 @@ public class Main {
 			int loops = 1;
 			for(int i = 0; i < loops; i++){
 				long startTime = System.currentTimeMillis();
-				vrS.testSolution();
+				vrS.clarkWrightSolution();
 				total += System.currentTimeMillis() - startTime;
 			}
 			System.out.println("Time Taken = " + (total/loops));
-			vrS.writeSVG("TESTPROB.csv", "TESTSOL.svg");
+			vrS.writeSVG("rand01000prob.svg", "rand01000solu.svg");
+			vrS.writeOut("rand01000solu.csv");
 			System.out.println(vrS.soln.size());
 			System.out.println(vrS.solnCost());
-			System.out.println("Verify: " + vrS.verify());
+			System.out.println("vrS.verify() returned " + vrS.verify());
 		}catch(Exception e){
 			e.printStackTrace();
 		}
