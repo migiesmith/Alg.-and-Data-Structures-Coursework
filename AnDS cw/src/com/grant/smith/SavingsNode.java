@@ -1,5 +1,7 @@
 package com.grant.smith;
 
+import javafx.util.Pair;
+
 
 public class SavingsNode implements Comparable<SavingsNode> {
 
@@ -15,5 +17,9 @@ public class SavingsNode implements Comparable<SavingsNode> {
 
 	public int compareTo(SavingsNode sj) {
 		return saving < sj.saving ? 1 : saving == sj.saving ? 0 : -1;
+	}
+	
+	public String toString(){
+		return ci + ", " + cj + ", " + saving;
 	}
 }
