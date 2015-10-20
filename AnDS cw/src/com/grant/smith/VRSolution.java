@@ -65,7 +65,7 @@ public class VRSolution {
 	}
 
 	public List<SavingsNode> getSavings(){
-		List<Customer> customers = new ArrayList<Customer>(soln.size() + (int)(soln.size()*.5));
+		List<Customer> customers = new ArrayList<Customer>();
 		for(Route r : soln){
 			if(r.demand < prob.depot.c){
 				customers.add(r.getStart());
@@ -73,9 +73,8 @@ public class VRSolution {
 					customers.add(r.getEnd());
 			}
 		}
-		((ArrayList<Customer>)customers).trimToSize();
 		
-
+		
 		List<SavingsNode> savings = new ArrayList<SavingsNode>();
 		for(int i = 0; i < customers.size(); i++){
 			for(int j = 0; j < customers.size(); j++){

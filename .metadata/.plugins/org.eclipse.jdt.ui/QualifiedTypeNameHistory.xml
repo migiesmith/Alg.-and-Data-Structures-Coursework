@@ -9,4 +9,5 @@
 <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
 <fullyQualifiedTypeName name="javafx.util.Pair"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="org.magicwerk.brownies.collections.GapList"/>
 </qualifiedTypeNameHistroy>
