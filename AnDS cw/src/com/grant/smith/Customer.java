@@ -12,4 +12,5 @@ public class Customer extends Point2D.Double{
 		this.y = y;
 		this.c = requirement;
 	}
+	
 }

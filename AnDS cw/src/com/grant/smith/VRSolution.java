@@ -36,18 +36,18 @@ public class VRSolution {
 					Route route2 = routeWhereCustomerIsFirst(savingsNode.cj);
 					if(route2 != null){
 						if(route0 == route2){ continue;}
-
 						if (route0.routeDemand() + route2.routeDemand() <= prob.depot.c) { // if merge is feasible
 							// Merge the two routes
-							soln.remove(route0);
 							soln.remove(route2);
-							soln.add(route0.mergeRoutes(route2));
+							route0.mergeRoutes(route2);
 							merged = true;
 						}
 					}
 				}
 			}
 		}	
+		
+		
 	}
 
 	private Route routeWhereCustomerIsLast(Customer c){
@@ -65,18 +65,16 @@ public class VRSolution {
 	}
 
 	public List<SavingsNode> getSavings(){
-		Iterator<Route> it = soln.iterator();
-
-		List<Customer> customers = new ArrayList<Customer>();
-		Route r;
-		while(it.hasNext()){
-			r = it.next();
+		List<Customer> customers = new ArrayList<Customer>(soln.size() + (int)(soln.size()*.5));
+		for(Route r : soln){
 			if(r.demand < prob.depot.c){
 				customers.add(r.getStart());
 				if(r.size() > 1)
 					customers.add(r.getEnd());
 			}
 		}
+		((ArrayList<Customer>)customers).trimToSize();
+		
 
 		List<SavingsNode> savings = new ArrayList<SavingsNode>();
 		for(int i = 0; i < customers.size(); i++){
@@ -84,13 +82,12 @@ public class VRSolution {
 				if(i == j) continue;
 				Customer ci = customers.get(i);
 				Customer cj = customers.get(j);
-				double saving = (prob.depot.distance(ci)+prob.depot.distance(cj)) -ci.distance(cj) ;
+				double saving = (prob.depot.distance(ci) + prob.depot.distance(cj)) - ci.distance(cj) ;
 				if(saving > 0)
 					savings.add(new SavingsNode(ci,cj,saving));
 			}
 		}
 		Collections.sort(savings);
-
 		return savings;
 	}
 
@@ -108,6 +105,7 @@ public class VRSolution {
 		}
 		return cost;
 	}
+	
 	public Boolean verify(){
 		//Check that no route exceeds capacity
 		Boolean okSoFar = true;
