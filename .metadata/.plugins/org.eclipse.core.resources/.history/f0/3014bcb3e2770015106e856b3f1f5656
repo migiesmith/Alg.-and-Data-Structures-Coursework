@@ -1,0 +1,59 @@
+package com.grant.smith;
+
+import java.awt.geom.Point2D;
+import java.util.Iterator;
+
+public class Circle extends Route{
+
+	double radius;
+	Point2D.Double pos;
+	
+	Circle(double x, double y, double radius){
+		pos = new Point2D.Double(x, y);
+		this.radius = radius;
+	}
+	
+	Circle(Point2D.Double pos, double radius){
+		this.pos = pos;
+		this.radius = radius;
+	}
+	
+	public void shrink(){
+		System.out.println(size());
+		if(size() > 0)
+			radius = farthestNode().distance(pos);
+	}
+	
+	public boolean keepAlive(){
+		if(size() == 0)
+			return false;
+		
+		return true;
+	}
+	
+	public void steal(Circle other){
+		Iterator<Customer> it = other.iterator();
+		while(it.hasNext()){
+			Customer c = it.next();
+			if(c.distance(pos) < radius){
+				other.demand -= c.c;
+				add(c);
+				it.remove();
+			}
+		}
+	}
+	
+	public Customer farthestNode(){
+		double far = Double.MIN_VALUE;
+		Customer farthest = null;
+		for(Customer c : this){
+			if(pos.distance(c) > far){
+				far = pos.distance(c);
+				farthest = c;
+			}
+			System.out.println(pos.distance(c));
+		}
+		return farthest;
+	}
+	
+}

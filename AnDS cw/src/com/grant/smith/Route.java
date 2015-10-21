@@ -22,6 +22,7 @@ public class Route extends ArrayList<Customer>{
 		return super.add(c);
 	}
 	
+	
 	public Route mergeRoutes(Route route2){
 		demand += route2.demand;
 		end = route2.end;
