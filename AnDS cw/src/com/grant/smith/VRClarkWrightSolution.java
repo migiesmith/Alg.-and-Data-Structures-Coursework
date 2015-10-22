@@ -22,7 +22,7 @@ public class VRClarkWrightSolution {
 	}
 
 	//Students should implement another solution
-	public void clarkWrightSolution(){
+	public void solve(){
 		oneRoutePerCustomerSolution();
 
 		boolean merged = true;
