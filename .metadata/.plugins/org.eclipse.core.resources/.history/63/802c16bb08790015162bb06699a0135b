@@ -73,7 +73,7 @@ public class VRPartitionSolution {
 					if(i == j) continue;
 					Circle ci = circles.get(i);
 					Circle cj = circles.get(j);
-					if((ci.demand + cj.demand <= prob.depot.c) && (ci.pos.distance(cj.pos) <= ci.radius*2 + cj.radius*2)){
+					if((ci.demand + cj.demand <= prob.depot.c) && (ci.pos.distance(cj.pos) <= ci.radius + cj.radius)){
 						circles.remove(cj);
 						ci.mergeRoutes(cj);
 						ci.shrink();

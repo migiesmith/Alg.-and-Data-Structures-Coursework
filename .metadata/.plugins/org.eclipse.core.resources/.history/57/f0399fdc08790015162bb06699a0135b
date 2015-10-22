@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		try{
-			VRPartitionSolution vrS = new VRPartitionSolution(new VRProblem("Test Data/rand00700prob.csv"));
+			VRPartitionSolution vrS = new VRPartitionSolution(new VRProblem("Test Data/rand00010prob.csv"));
 			long total = 0;
 			int loops = 1;
 			for(int i = 0; i < loops; i++){

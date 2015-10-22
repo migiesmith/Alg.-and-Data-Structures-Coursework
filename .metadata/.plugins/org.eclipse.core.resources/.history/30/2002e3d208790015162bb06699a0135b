@@ -78,6 +78,8 @@ public class VRPartitionSolution {
 						ci.mergeRoutes(cj);
 						ci.shrink();
 						merged = true;
+					}else{
+						ci.steal(cj);
 					}
 				}
 			}
