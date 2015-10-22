@@ -1,16 +1,20 @@
 package com.grant.smith;
 
+import java.util.ArrayList;
+
 public class Main {
 
+    private static ArrayList<Integer> bestRoute;
+    
 	public static void main(String[] args) {
 		
 		try{
-			VRPartitionSolution vrS = new VRPartitionSolution(new VRProblem("Test Data/rand00030prob.csv"));
+			VRClarkWrightSolution vrS = new VRClarkWrightSolution(new VRProblem("Test Data/rand01000prob.csv"));
 			long total = 0;
 			int loops = 1;
 			for(int i = 0; i < loops; i++){
 				long startTime = System.currentTimeMillis();
-				vrS.partitionSolution();
+				vrS.clarkWrightSolution();
 				total += System.currentTimeMillis() - startTime;
 			}
 			System.out.println("Time Taken = " + (total/loops) + "ms");
@@ -24,5 +28,6 @@ public class Main {
 		}
 		
 	}
-
+    
 }
+
