@@ -37,8 +37,5 @@ public class Route extends ArrayList<Customer>{
 		return end;
 	}
 
-	public double routeDemand(){
-		return demand;
-	}
 	
 }

@@ -36,7 +36,7 @@ public class VRClarkWrightSolution {
 					Route route2 = routeWhereCustomerIsFirst(savingsNode.cj);
 					if(route2 != null){
 						if(route0 == route2){ continue;}
-						if (route0.routeDemand() + route2.routeDemand() <= prob.depot.c) { // if merge is feasible
+						if (route0.demand + route2.demand <= prob.depot.c) { // if merge is feasible
 							// Merge the two routes
 							soln.remove(route2);
 							route0.mergeRoutes(route2);

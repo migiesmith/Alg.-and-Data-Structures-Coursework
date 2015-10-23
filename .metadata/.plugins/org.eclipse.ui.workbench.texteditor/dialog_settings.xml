@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="cap" key="selection"/>
+		<item value="" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="routeDemand"/>
 			<item value="cap"/>
 			<item value="addAll"/>
 			<item value="&gt;"/>
@@ -15,7 +16,6 @@
 			<item value="canBe"/>
 			<item value="canbestolen"/>
 			<item value="canbe"/>
-			<item value="System"/>
 		</list>
 		<list key="replacehistory">
 			<item value="SavingsNode"/>
