@@ -29,14 +29,13 @@ public class VRPartitionSolution {
 		circles = new ArrayList<Circle>();
 		circles.add(root);
 
-		boolean shrunkRoot = false;
 		boolean overCap = true;
 		while(overCap){
 			overCap = false;
 			for(int i = 0; i < circles.size(); i++){
 				Circle c = circles.get(i);
 				if(!c.keepAlive()) { circles.remove(i); continue;}
-				if(c.demand >= prob.depot.c){
+				if(c.demand > prob.depot.c){
 					// Get the farthest node in this circle
 					Customer farthest = c.farthestNode();
 
@@ -102,7 +101,7 @@ public class VRPartitionSolution {
 		}
 		
 		//Remove the circles so that they don't respond
-		//circles.clear();
+		circles.clear();
 		
 	}
 	

@@ -89,13 +89,13 @@ public class Circle extends Route{
 				Customer first = ordered.get(0);
 				Customer last = ordered.get(ordered.size()-1);
 				
-				double savingF = (depot.distance(first) + depot.distance(s.ci)) - first.distance(s.ci);
-				double savingL = (depot.distance(last) + depot.distance(s.ci)) - last.distance(s.ci);
+				double savingF = (depot.distance(first) + depot.distance(s.cj)) - first.distance(s.cj);
+				double savingL = (depot.distance(last) + depot.distance(s.cj)) - last.distance(s.cj);
 
-				if(savingF > savingL && !ordered.contains(s.ci))
-					ordered.add(0,s.ci);
-				else if(!ordered.contains(s.ci))
-					ordered.add(s.ci);
+				if(savingF >= savingL && !ordered.contains(s.cj))
+					ordered.add(0,s.cj);
+				else if(!ordered.contains(s.cj))
+					ordered.add(s.cj);
 			}
 		}
 		clear();

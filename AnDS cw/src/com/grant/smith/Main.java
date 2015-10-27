@@ -8,9 +8,9 @@ public class Main {
 	public static void main(String[] args) {
 		
 		try{ //VRClarkWrightSolution
-			VRPartitionSolution vrS = new VRPartitionSolution(new VRProblem("Test Data/rand01000prob.csv"));
+			VRPartitionSolution vrS = new VRPartitionSolution(new VRProblem("Test Data/rand00200prob.csv"));
 			double total = 0;
-			int loops = 100;
+			int loops = 1;
 			long startTime = System.nanoTime();
 			for(int i = 0; i < loops; i++){
 				vrS.solve();
