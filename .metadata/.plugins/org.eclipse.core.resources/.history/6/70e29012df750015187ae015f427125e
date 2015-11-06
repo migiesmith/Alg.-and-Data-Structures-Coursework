@@ -1,8 +1,0 @@
-package com.grant.smith;
-
-class SavingsComparator implements Comparator<Customer> {
-    @Override
-    public int compare(Customer a, Customer b) {
-        return a.name.compareToIgnoreCase(b.name);
-    }
-}

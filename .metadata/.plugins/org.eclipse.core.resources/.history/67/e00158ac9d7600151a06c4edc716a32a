@@ -1,5 +1,0 @@
-package com.grant.smith;
-
-public class MergeThread implements Runnable {
-
-}

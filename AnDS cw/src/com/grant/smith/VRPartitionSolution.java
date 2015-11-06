@@ -73,25 +73,25 @@ public class VRPartitionSolution {
 				c.shrink();
 				
 			}
-		}
-
-		boolean merged = true;
-		while(merged){
-			merged = false;
-			for(int i = 0; i < circles.size(); i++){
-				for(int j = i+1; j < circles.size(); j++){
-					if(i == j) continue;
-					Circle ci = circles.get(i);
-					Circle cj = circles.get(j);
-					if((ci.demand + cj.demand <= prob.depot.c) && (ci.pos.distance(cj.pos) <= ci.radius*2 + cj.radius*2)){
-						circles.remove(cj);
-						ci.mergeRoutes(cj);
-						ci.shrink();
-						merged = true;
+			boolean merged = true;
+			while(merged){
+				merged = false;
+				for(int i = 0; i < circles.size(); i++){
+					for(int j = i+1; j < circles.size(); j++){
+						if(i == j) continue;
+						Circle ci = circles.get(i);
+						Circle cj = circles.get(j);
+						if((ci.demand + cj.demand <= prob.depot.c) && (ci.pos.distance(cj.pos) <= ci.radius*2 + cj.radius*2)){
+							circles.remove(cj);
+							ci.mergeRoutes(cj);
+							ci.shrink();
+							merged = true;
+						}
 					}
 				}
 			}
 		}
+
 		
 		for(Circle c : circles){
 			if(c.size() > 1){
@@ -101,7 +101,7 @@ public class VRPartitionSolution {
 		}
 		
 		//Remove the circles so that they don't respond
-		circles.clear();
+		//circles.clear();
 		
 	}
 	
