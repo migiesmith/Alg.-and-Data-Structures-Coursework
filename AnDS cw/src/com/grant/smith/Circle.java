@@ -4,6 +4,7 @@ import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Circle extends Route{
@@ -73,7 +74,7 @@ public class Circle extends Route{
 		
 		Collections.sort(savings);
 
-		List<Customer> ordered = new ArrayList<Customer>();
+		List<Customer> ordered = new LinkedList<Customer>();
 		ordered.add(savings.get(0).ci);
 		ordered.add(savings.remove(0).cj);
 

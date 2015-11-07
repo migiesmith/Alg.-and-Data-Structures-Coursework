@@ -8,7 +8,7 @@ import java.io.*;
 
 public class VRPartitionSolution {
 	public VRProblem prob;
-	public List<Route>soln;
+	public List<Route> soln;
 	ArrayList<Circle> circles;
 	
 	public VRPartitionSolution(VRProblem problem){
@@ -17,8 +17,6 @@ public class VRPartitionSolution {
 
 	//Students should implement another solution
 	public void solve(){
-
-		soln = new ArrayList<Route>();
 		
 		Circle root = new Circle(prob.depot.x, prob.depot.y, 0.0);
 		for(Customer c : prob.customers){
@@ -63,20 +61,11 @@ public class VRPartitionSolution {
 				}
 
 			}
-			for(int i = 0; i < circles.size(); i++){
-				Circle c = circles.get(i);
-				Customer farthest = c.farthestNode();
-				if(farthest == null) continue;
-			    double mx = (farthest.x + c.pos.x)/2;
-			    double my = (farthest.y + c.pos.y)/2;
-				c.pos = new Point2D.Double(mx, my);
-				c.shrink();
-				
-			}
+
 			boolean merged = true;
 			while(merged){
 				merged = false;
-				for(int i = 0; i < circles.size(); i++){
+				for(int i = 0; i < circles.size()-1; i++){
 					for(int j = i+1; j < circles.size(); j++){
 						if(i == j) continue;
 						Circle ci = circles.get(i);
@@ -90,6 +79,17 @@ public class VRPartitionSolution {
 					}
 				}
 			}
+			
+			for(int i = 0; i < circles.size(); i++){
+				Circle c = circles.get(i);
+				Customer farthest = c.farthestNode();
+				if(farthest == null){ circles.remove(i); continue;}
+			    double mx = (farthest.x + c.pos.x)/2;
+			    double my = (farthest.y + c.pos.y)/2;
+				c.pos.setLocation(mx, my);
+				c.shrink();
+				
+			}
 		}
 
 		
@@ -97,10 +97,13 @@ public class VRPartitionSolution {
 			if(c.size() > 1){
 				c.improve(prob.depot);
 			}
-			soln.add(c);
 		}
 		
-		//Remove the circles so that they don't respond
+		soln = new LinkedList<Route>();
+		
+		soln.addAll(circles);
+		
+		//Remove the circles so that they don't render
 		//circles.clear();
 		
 	}

@@ -24,32 +24,31 @@ public class Main {
 				if(problemFilePattern.matcher(f.getName()).find())
 					files.add(f);
 			}
-			double[] times = new double[files.size()];
+			int[] times = new int[files.size()];
 			
 			int fileNo = 0;
 			for(File f : files){
 				VRPartitionSolution vrS = new VRPartitionSolution(new VRProblem(testDataFolder + f.getName()));
 				
-				int loops = 10;
-				long startTime = System.nanoTime();
+				int loops = 100;
+				long startTime = System.currentTimeMillis();
 				for(int i = 0; i < loops; i++){
 					vrS.solve();
 				}
-				times[fileNo] = (System.nanoTime() - startTime)/1000000.0;
+				times[fileNo] = (int)(System.currentTimeMillis() - startTime);
 
 				String fileName = f.getName().substring(0, f.getName().length() - "prob.csv".length());
-				System.out.println("\n"+fileName);
+//				System.out.println(fileName);
 				
-				DecimalFormat df = new DecimalFormat("#.###");
-				System.out.println("Time taken for " + loops + " loops = " + df.format(times[fileNo]) + "ms");
-				System.out.println("Avg time " + df.format(times[fileNo]/loops) + "ms");
-				
+//				System.out.println("Time taken for " + loops + " loops = " + times[fileNo] + "ms");
+//				System.out.println("Avg time " + (int)(times[fileNo]/loops) + "ms");
+				System.out.println((int)(times[fileNo]/loops));
 				
 				vrS.writeSVG(resultsFolder +  fileName + "prob.svg", resultsFolder + fileName + "solu.svg");
 				vrS.writeOut(resultsFolder + fileName + "solu.csv");
-				System.out.println(vrS.soln.size());
-				System.out.println(vrS.solnCost());
-				System.out.println("vrS.verify() returned " + vrS.verify());
+//				System.out.println(vrS.soln.size());
+//				System.out.println(vrS.solnCost());
+//				System.out.println("vrS.verify() returned " + vrS.verify());
 				fileNo++;
 				
 			}
