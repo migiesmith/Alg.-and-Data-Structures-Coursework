@@ -42,12 +42,12 @@ public class Main {
 				
 //				System.out.println("Time taken for " + loops + " loops = " + times[fileNo] + "ms");
 //				System.out.println("Avg time " + (int)(times[fileNo]/loops) + "ms");
-				System.out.println((int)(times[fileNo]/loops));
+//				System.out.println((int)(times[fileNo]/loops));
 				
 				vrS.writeSVG(resultsFolder +  fileName + "prob.svg", resultsFolder + fileName + "solu.svg");
 				vrS.writeOut(resultsFolder + fileName + "solu.csv");
 //				System.out.println(vrS.soln.size());
-//				System.out.println(vrS.solnCost());
+				System.out.println(vrS.solnCost());
 //				System.out.println("vrS.verify() returned " + vrS.verify());
 				fileNo++;
 				

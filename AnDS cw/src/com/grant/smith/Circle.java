@@ -66,7 +66,7 @@ public class Circle extends Route{
 				if(i == j) continue;
 				Customer ci = get(i);
 				Customer cj = get(j);
-				double saving = (depot.distance(ci) + depot.distance(cj)) - ci.distance(cj) ;
+				double saving = depot.distance(ci) + depot.distance(cj) - ci.distance(cj);
 				if(saving > 0)
 					savings.add(new SavingsNode(ci,cj,saving));
 			}
