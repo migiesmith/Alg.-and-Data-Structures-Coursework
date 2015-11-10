@@ -1,61 +1,62 @@
 <?xml version='1.0'?>
 <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' '../../svg11-flat.dtd'>
 <svg width='8cm' height='8cm' viewBox='0 0 500 500' xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<path d='M250.0 250.0 L200.0 273.0L199.0 279.0L166.0 245.0L148.0 243.0L165.0 263.0L194.0 256.0z' stroke='chocolate' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L150.0 196.0L128.0 185.0L123.0 193.0L120.0 191.0L103.0 188.0L92.0 184.0L105.0 177.0L108.0 181.0L118.0 202.0L128.0 210.0z' stroke='cornflowerblue' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L289.0 25.0L280.0 25.0L238.0 22.0L224.0 85.0L221.0 92.0L219.0 101.0L231.0 105.0L214.0 113.0L230.0 144.0z' stroke='crimson' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L360.0 9.0L383.0 15.0L379.0 8.0L392.0 4.0L414.0 0.0L386.0 28.0L388.0 37.0L389.0 42.0L397.0 76.0z' stroke='cyan' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L418.0 192.0L465.0 102.0L473.0 109.0L480.0 112.0L461.0 124.0L428.0 223.0L428.0 222.0L429.0 227.0L421.0 224.0z' stroke='darkblue' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L362.0 319.0L376.0 331.0L378.0 333.0L397.0 352.0L416.0 325.0L449.0 315.0L450.0 298.0L467.0 281.0L405.0 301.0L401.0 299.0L390.0 293.0L377.0 300.0L356.0 293.0z' stroke='darkcyan' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L458.0 439.0L491.0 462.0L479.0 483.0L461.0 468.0L448.0 456.0L441.0 460.0z' stroke='darkgoldenrod' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L283.0 445.0L233.0 424.0L198.0 429.0L182.0 422.0L170.0 420.0L194.0 400.0z' stroke='chocolate' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L104.0 451.0L102.0 454.0L86.0 467.0L130.0 497.0L144.0 494.0L145.0 486.0z' stroke='cornflowerblue' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L14.0 443.0L5.0 452.0L17.0 412.0z' stroke='crimson' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L135.0 259.0L115.0 271.0L96.0 285.0L70.0 280.0L73.0 266.0L71.0 259.0L116.0 243.0z' stroke='cyan' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L46.0 208.0L11.0 208.0L5.0 220.0L26.0 219.0L38.0 231.0L58.0 237.0L57.0 242.0z' stroke='darkblue' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L43.0 32.0L11.0 44.0L12.0 135.0L18.0 135.0L38.0 125.0L37.0 135.0L49.0 118.0L8.0 179.0L65.0 152.0L76.0 194.0z' stroke='darkcyan' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L2.0 32.0L2.0 16.0L1.0 9.0L5.0 3.0L9.0 6.0L10.0 27.0z' stroke='darkgoldenrod' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L156.0 27.0L162.0 27.0L106.0 29.0L89.0 15.0L98.0 0.0L99.0 1.0L63.0 18.0L54.0 28.0L18.0 4.0L31.0 16.0L47.0 29.0L98.0 59.0L94.0 63.0z' stroke='chocolate' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L274.0 294.0L293.0 303.0L266.0 306.0L257.0 307.0z' stroke='cornflowerblue' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L155.0 131.0L147.0 128.0L133.0 81.0L147.0 73.0L156.0 82.0L165.0 126.0L198.0 144.0z' stroke='crimson' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L317.0 39.0L318.0 37.0L333.0 20.0L306.0 0.0L297.0 9.0L301.0 24.0L301.0 25.0L291.0 76.0z' stroke='cyan' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L343.0 91.0L346.0 71.0L384.0 90.0L398.0 101.0L415.0 108.0L431.0 112.0L401.0 125.0z' stroke='darkblue' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L465.0 207.0L483.0 209.0L479.0 202.0L466.0 345.0L484.0 354.0L482.0 369.0L457.0 361.0L458.0 342.0L468.0 305.0z' stroke='darkcyan' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L346.0 430.0L333.0 454.0L361.0 491.0L351.0 471.0L406.0 406.0L403.0 415.0L400.0 404.0L395.0 379.0z' stroke='darkgoldenrod' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L198.0 442.0L203.0 451.0L202.0 468.0L199.0 499.0L175.0 473.0L291.0 485.0L304.0 494.0L281.0 472.0L261.0 470.0L252.0 464.0z' stroke='chocolate' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L125.0 398.0L110.0 386.0L126.0 406.0L118.0 402.0L111.0 403.0L96.0 414.0L114.0 432.0L145.0 456.0z' stroke='cornflowerblue' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L44.0 332.0L24.0 338.0L18.0 334.0L16.0 345.0L21.0 355.0z' stroke='crimson' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L67.0 259.0L53.0 256.0L19.0 259.0L11.0 271.0L34.0 282.0L43.0 305.0z' stroke='cyan' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L73.0 118.0L76.0 110.0L70.0 90.0L52.0 80.0L37.0 62.0L76.0 67.0L94.0 88.0z' stroke='darkblue' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L327.0 146.0L349.0 133.0L351.0 120.0L388.0 133.0L351.0 147.0L375.0 224.0L357.0 322.0L332.0 322.0L366.0 254.0L337.0 295.0L339.0 265.0L299.0 304.0L298.0 289.0z' stroke='darkcyan' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L282.0 80.0L295.0 79.0L303.0 78.0L307.0 85.0L327.0 100.0L332.0 98.0L314.0 95.0L309.0 105.0L315.0 125.0z' stroke='darkgoldenrod' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L450.0 412.0L459.0 408.0L465.0 427.0L484.0 417.0L498.0 409.0L498.0 398.0L494.0 378.0L495.0 375.0L487.0 253.0L486.0 248.0L483.0 284.0L491.0 273.0L459.0 247.0L454.0 251.0z' stroke='chocolate' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L315.0 342.0L354.0 348.0L304.0 438.0L318.0 419.0L330.0 413.0L313.0 370.0L313.0 354.0L288.0 360.0L296.0 353.0z' stroke='cornflowerblue' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L112.0 359.0L117.0 346.0L137.0 375.0L142.0 393.0L144.0 385.0L144.0 371.0L153.0 372.0z' stroke='crimson' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L120.0 287.0L109.0 301.0L85.0 294.0L74.0 301.0L78.0 312.0L77.0 321.0L111.0 339.0z' stroke='cyan' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L315.0 198.0L316.0 200.0L323.0 214.0L313.0 226.0L298.0 232.0z' stroke='darkblue' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L224.0 71.0L212.0 49.0L218.0 14.0L203.0 16.0L194.0 25.0L183.0 42.0L191.0 50.0L180.0 55.0z' stroke='darkcyan' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L401.0 177.0L370.0 166.0L362.0 176.0L294.0 145.0L272.0 157.0L257.0 163.0L255.0 160.0L244.0 174.0z' stroke='darkgoldenrod' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L234.0 375.0L210.0 359.0L142.0 335.0L131.0 330.0L114.0 334.0L121.0 328.0z' stroke='chocolate' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L209.0 299.0L219.0 313.0L211.0 325.0L183.0 335.0L185.0 299.0L304.0 179.0L292.0 187.0L291.0 200.0L266.0 193.0L282.0 210.0L246.0 224.0z' stroke='cornflowerblue' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L363.0 188.0L387.0 199.0L375.0 199.0L366.0 203.0L364.0 215.0L358.0 211.0z' stroke='crimson' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L223.0 330.0L222.0 334.0L219.0 338.0L213.0 352.0L206.0 354.0L256.0 333.0z' stroke='cyan' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L159.0 306.0L141.0 322.0L128.0 314.0L129.0 296.0L139.0 286.0L159.0 283.0z' stroke='darkblue' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L219.0 255.0L191.0 222.0L153.0 207.0L165.0 193.0L206.0 199.0L207.0 217.0L215.0 228.0z' stroke='darkcyan' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L271.0 106.0L251.0 82.0L257.0 58.0L256.0 95.0z' stroke='darkgoldenrod' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L414.0 41.0L437.0 27.0L435.0 21.0L446.0 22.0L451.0 7.0L455.0 26.0L445.0 49.0L418.0 84.0z' stroke='chocolate' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L428.0 179.0L472.0 161.0L494.0 160.0L464.0 152.0L460.0 159.0L441.0 159.0L427.0 147.0z' stroke='cornflowerblue' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L404.0 445.0L410.0 459.0L447.0 422.0L415.0 398.0z' stroke='crimson' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L251.0 388.0L264.0 391.0L259.0 399.0L264.0 410.0L283.0 403.0L277.0 378.0z' stroke='cyan' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L82.0 414.0L49.0 441.0L17.0 464.0L32.0 473.0L74.0 463.0L78.0 461.0L74.0 452.0z' stroke='darkblue' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L37.0 369.0L21.0 358.0L27.0 377.0L26.0 379.0L33.0 398.0z' stroke='darkcyan' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L244.0 255.0L233.0 279.0L254.0 292.0L252.0 276.0L251.0 264.0L261.0 258.0z' stroke='darkgoldenrod' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L72.0 347.0L71.0 346.0L64.0 358.0L60.0 381.0L75.0 387.0L79.0 408.0L81.0 374.0L92.0 365.0z' stroke='chocolate' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L215.0 393.0L210.0 400.0L221.0 396.0z' stroke='cornflowerblue' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L97.0 133.0L110.0 121.0L101.0 89.0L107.0 87.0L119.0 115.0L127.0 121.0z' stroke='crimson' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L451.0 58.0L457.0 54.0L473.0 31.0L472.0 34.0L470.0 48.0L471.0 60.0L483.0 74.0L451.0 88.0z' stroke='cyan' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L88.0 163.0L72.0 142.0L101.0 145.0z' stroke='darkblue' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L148.0 176.0L173.0 153.0L188.0 160.0L190.0 158.0z' stroke='darkcyan' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L246.0 224.0L244.0 255.0L251.0 264.0L252.0 276.0L254.0 292.0L266.0 306.0L274.0 294.0L298.0 289.0L261.0 258.0z' stroke='chocolate' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L155.0 131.0L147.0 128.0L127.0 121.0L119.0 115.0L110.0 121.0z' stroke='cornflowerblue' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L282.0 80.0L251.0 82.0L257.0 58.0L212.0 49.0L218.0 14.0L203.0 16.0L194.0 25.0L183.0 42.0L191.0 50.0L224.0 71.0L224.0 85.0L221.0 92.0z' stroke='crimson' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L388.0 133.0L401.0 125.0L398.0 101.0L418.0 84.0L414.0 41.0L397.0 76.0L384.0 90.0L351.0 120.0L349.0 133.0z' stroke='cyan' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L387.0 199.0L418.0 192.0L428.0 179.0L441.0 159.0L427.0 147.0L401.0 177.0z' stroke='darkblue' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L450.0 298.0L449.0 315.0L468.0 305.0L483.0 284.0L467.0 281.0L458.0 342.0L466.0 345.0L484.0 354.0L482.0 369.0L457.0 361.0z' stroke='darkcyan' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L330.0 413.0L318.0 419.0L346.0 430.0L333.0 454.0L361.0 491.0L351.0 471.0L406.0 406.0L403.0 415.0L400.0 404.0L395.0 379.0z' stroke='darkgoldenrod' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L203.0 451.0L202.0 468.0L199.0 499.0L304.0 494.0L291.0 485.0L281.0 472.0L261.0 470.0L252.0 464.0L283.0 445.0L304.0 438.0z' stroke='chocolate' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L126.0 406.0L114.0 432.0L111.0 403.0L118.0 402.0L125.0 398.0L110.0 386.0z' stroke='cornflowerblue' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L19.0 259.0L11.0 271.0L34.0 282.0L43.0 305.0L71.0 346.0L72.0 347.0L92.0 365.0L77.0 321.0z' stroke='crimson' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L46.0 208.0L11.0 208.0L5.0 220.0L26.0 219.0L38.0 231.0L58.0 237.0L57.0 242.0z' stroke='cyan' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L70.0 90.0L76.0 67.0L52.0 80.0L37.0 62.0L12.0 135.0L18.0 135.0L38.0 125.0L37.0 135.0L49.0 118.0L8.0 179.0L65.0 152.0L76.0 194.0z' stroke='darkblue' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L156.0 27.0L162.0 27.0L106.0 29.0L89.0 15.0L98.0 0.0L99.0 1.0L63.0 18.0L54.0 28.0L18.0 4.0L31.0 16.0L47.0 29.0L98.0 59.0L94.0 63.0z' stroke='darkcyan' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L166.0 245.0L78.0 312.0L74.0 301.0L85.0 294.0L165.0 263.0L194.0 256.0L219.0 255.0z' stroke='darkgoldenrod' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L118.0 202.0L108.0 181.0L105.0 177.0L103.0 188.0L120.0 191.0L123.0 193.0L128.0 185.0z' stroke='chocolate' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L256.0 95.0L271.0 106.0L231.0 105.0L219.0 101.0L214.0 113.0L230.0 144.0z' stroke='cornflowerblue' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L429.0 227.0L465.0 207.0L428.0 222.0L428.0 223.0L421.0 224.0z' stroke='crimson' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L401.0 299.0L405.0 301.0L454.0 251.0L459.0 247.0L486.0 248.0L487.0 253.0L491.0 273.0L416.0 325.0L397.0 352.0L378.0 333.0L376.0 331.0L354.0 348.0z' stroke='cyan' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L404.0 445.0L410.0 459.0L441.0 460.0L479.0 483.0L461.0 468.0L448.0 456.0L415.0 398.0z' stroke='darkblue' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L221.0 396.0L215.0 393.0L210.0 400.0L233.0 424.0L264.0 410.0z' stroke='darkcyan' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L104.0 451.0L102.0 454.0L86.0 467.0L74.0 463.0L78.0 461.0L74.0 452.0L82.0 414.0L79.0 408.0L96.0 414.0z' stroke='darkgoldenrod' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L70.0 280.0L73.0 266.0L53.0 256.0L67.0 259.0L71.0 259.0L116.0 243.0z' stroke='chocolate' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L43.0 32.0L11.0 44.0z' stroke='cornflowerblue' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L233.0 279.0L209.0 299.0L185.0 299.0L199.0 279.0L200.0 273.0z' stroke='crimson' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L198.0 144.0L165.0 126.0L173.0 153.0L190.0 158.0L188.0 160.0z' stroke='cyan' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L244.0 174.0L255.0 160.0L257.0 163.0L272.0 157.0L294.0 145.0L309.0 105.0L315.0 125.0z' stroke='darkblue' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L327.0 100.0L332.0 98.0L346.0 71.0L343.0 91.0L415.0 108.0L431.0 112.0L451.0 88.0L465.0 102.0L473.0 109.0L480.0 112.0L461.0 124.0L351.0 147.0z' stroke='darkcyan' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L483.0 209.0L479.0 202.0L472.0 161.0L494.0 160.0L464.0 152.0L460.0 159.0z' stroke='darkgoldenrod' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L339.0 265.0L337.0 295.0L366.0 254.0L356.0 293.0L390.0 293.0L377.0 300.0L357.0 322.0L362.0 319.0L332.0 322.0L315.0 342.0z' stroke='chocolate' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L450.0 412.0L459.0 408.0L447.0 422.0L465.0 427.0L458.0 439.0L491.0 462.0L484.0 417.0L498.0 409.0L498.0 398.0L494.0 378.0L495.0 375.0z' stroke='cornflowerblue' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L234.0 375.0L251.0 388.0L264.0 391.0L259.0 399.0L283.0 403.0L277.0 378.0z' stroke='crimson' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L159.0 306.0L141.0 322.0L128.0 314.0L131.0 330.0L142.0 335.0L109.0 301.0L96.0 285.0L129.0 296.0z' stroke='cyan' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L2.0 32.0L2.0 16.0L1.0 9.0L5.0 3.0L9.0 6.0L10.0 27.0z' stroke='darkblue' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L257.0 307.0L223.0 330.0L222.0 334.0L219.0 338.0L213.0 352.0L210.0 359.0L206.0 354.0L183.0 335.0L211.0 325.0L219.0 313.0z' stroke='darkcyan' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L165.0 193.0L148.0 176.0L150.0 196.0L128.0 210.0L153.0 207.0z' stroke='darkgoldenrod' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L266.0 193.0L292.0 187.0L327.0 146.0L304.0 179.0L291.0 200.0L282.0 210.0z' stroke='chocolate' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L483.0 74.0L471.0 60.0L470.0 48.0L457.0 54.0L451.0 58.0L445.0 49.0z' stroke='cornflowerblue' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L293.0 303.0L299.0 304.0L313.0 354.0L313.0 370.0L288.0 360.0L296.0 353.0L256.0 333.0z' stroke='crimson' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L175.0 473.0L145.0 486.0L144.0 494.0L130.0 497.0L145.0 456.0z' stroke='cyan' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L159.0 283.0L139.0 286.0L120.0 287.0L115.0 271.0L135.0 259.0L148.0 243.0z' stroke='darkblue' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L315.0 198.0L316.0 200.0L323.0 214.0L313.0 226.0L298.0 232.0z' stroke='darkcyan' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L414.0 0.0L437.0 27.0L435.0 21.0L446.0 22.0L451.0 7.0L473.0 31.0L472.0 34.0L455.0 26.0z' stroke='darkgoldenrod' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L358.0 211.0L364.0 215.0L375.0 224.0L375.0 199.0L366.0 203.0L363.0 188.0L370.0 166.0L362.0 176.0z' stroke='chocolate' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L180.0 55.0L156.0 82.0L147.0 73.0L133.0 81.0L107.0 87.0L101.0 89.0L94.0 88.0z' stroke='cornflowerblue' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L317.0 39.0L318.0 37.0L333.0 20.0L306.0 0.0L297.0 9.0L301.0 24.0L301.0 25.0L289.0 25.0L280.0 25.0L238.0 22.0z' stroke='crimson' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L60.0 381.0L75.0 387.0L198.0 429.0L198.0 442.0L170.0 420.0L182.0 422.0L194.0 400.0z' stroke='cyan' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L44.0 332.0L24.0 338.0L18.0 334.0L16.0 345.0L21.0 355.0L64.0 358.0L81.0 374.0z' stroke='darkblue' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L215.0 228.0L207.0 217.0L206.0 199.0L191.0 222.0z' stroke='darkcyan' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L92.0 184.0L88.0 163.0L72.0 142.0L73.0 118.0L76.0 110.0L97.0 133.0L101.0 145.0z' stroke='darkgoldenrod' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L389.0 42.0L388.0 37.0L386.0 28.0L383.0 15.0L392.0 4.0L379.0 8.0L360.0 9.0z' stroke='chocolate' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L49.0 441.0L17.0 464.0L32.0 473.0z' stroke='cornflowerblue' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L117.0 346.0L112.0 359.0L111.0 339.0L114.0 334.0L121.0 328.0z' stroke='crimson' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L291.0 76.0L295.0 79.0L303.0 78.0L307.0 85.0L314.0 95.0z' stroke='cyan' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L37.0 369.0L21.0 358.0L27.0 377.0L26.0 379.0L33.0 398.0z' stroke='darkblue' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L14.0 443.0L5.0 452.0L17.0 412.0z' stroke='darkcyan' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L144.0 371.0L137.0 375.0L142.0 393.0L144.0 385.0L153.0 372.0z' stroke='darkgoldenrod' fill='none' stroke-width='2'/>
 <g transform='translate(332,98)'><circle cx='0' cy='0' r='10' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>3</text></g>
 <g transform='translate(206,199)'><circle cx='0' cy='0' r='10' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>7</text></g>
 <g transform='translate(173,153)'><circle cx='0' cy='0' r='10' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>9</text></g>
@@ -456,60 +457,61 @@
 <g transform='translate(264,410)'><circle cx='0' cy='0' r='10' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>9</text></g>
 <g transform='translate(315,342)'><circle cx='0' cy='0' r='10' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>4</text></g>
 <g transform='translate(370,166)'><circle cx='0' cy='0' r='10' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>2</text></g>
-<g transform='translate(183,266)'><circle cx='0' cy='0' r='41' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(114,186)'><circle cx='0' cy='0' r='37' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(248,105)'><circle cx='0' cy='0' r='90' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(380,28)'><circle cx='0' cy='0' r='51' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(454,142)'><circle cx='0' cy='0' r='89' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(397,304)'><circle cx='0' cy='0' r='73' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(474,461)'><circle cx='0' cy='0' r='33' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(248,436)'><circle cx='0' cy='0' r='79' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(124,485)'><circle cx='0' cy='0' r='42' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(10,438)'><circle cx='0' cy='0' r='27' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(91,273)'><circle cx='0' cy='0' r='45' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(42,231)'><circle cx='0' cy='0' r='38' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(63,140)'><circle cx='0' cy='0' r='109' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(5,23)'><circle cx='0' cy='0' r='19' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(114,20)'><circle cx='0' cy='0' r='97' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(269,303)'><circle cx='0' cy='0' r='24' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(177,124)'><circle cx='0' cy='0' r='61' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(297,52)'><circle cx='0' cy='0' r='53' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(402,99)'><circle cx='0' cy='0' r='62' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(479,315)'><circle cx='0' cy='0' r='113' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(383,417)'><circle cx='0' cy='0' r='77' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(218,479)'><circle cx='0' cy='0' r='87' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(121,409)'><circle cx='0' cy='0' r='52' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(34,340)'><circle cx='0' cy='0' r='20' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(28,278)'><circle cx='0' cy='0' r='43' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(49,79)'><circle cx='0' cy='0' r='45' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(345,188)'><circle cx='0' cy='0' r='134' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(294,94)'><circle cx='0' cy='0' r='38' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(465,308)'><circle cx='0' cy='0' r='119' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(318,408)'><circle cx='0' cy='0' r='70' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(126,362)'><circle cx='0' cy='0' r='34' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(105,299)'><circle cx='0' cy='0' r='40' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(304,221)'><circle cx='0' cy='0' r='25' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(198,44)'><circle cx='0' cy='0' r='37' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(298,174)'><circle cx='0' cy='0' r='103' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(193,361)'><circle cx='0' cy='0' r='83' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(225,282)'><circle cx='0' cy='0' r='129' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(368,206)'><circle cx='0' cy='0' r='20' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(222,347)'><circle cx='0' cy='0' r='36' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(145,308)'><circle cx='0' cy='0' r='28' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(199,239)'><circle cx='0' cy='0' r='56' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(260,76)'><circle cx='0' cy='0' r='31' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(441,32)'><circle cx='0' cy='0' r='56' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(471,164)'><circle cx='0' cy='0' r='47' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(414,440)'><circle cx='0' cy='0' r='41' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(273,396)'><circle cx='0' cy='0' r='23' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(63,433)'><circle cx='0' cy='0' r='55' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(24,372)'><circle cx='0' cy='0' r='27' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(254,279)'><circle cx='0' cy='0' r='26' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(75,386)'><circle cx='0' cy='0' r='40' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(214,399)'><circle cx='0' cy='0' r='7' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(105,103)'><circle cx='0' cy='0' r='31' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(466,49)'><circle cx='0' cy='0' r='41' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(92,148)'><circle cx='0' cy='0' r='20' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(162,170)'><circle cx='0' cy='0' r='30' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(250,250)'><circle cx='0' cy='0' r='61' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(128,127)'><circle cx='0' cy='0' r='27' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(244,68)'><circle cx='0' cy='0' r='65' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(369,104)'><circle cx='0' cy='0' r='70' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(422,187)'><circle cx='0' cy='0' r='40' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(451,335)'><circle cx='0' cy='0' r='60' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(371,410)'><circle cx='0' cy='0' r='81' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(250,453)'><circle cx='0' cy='0' r='68' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(136,404)'><circle cx='0' cy='0' r='35' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(74,337)'><circle cx='0' cy='0' r='67' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(24,229)'><circle cx='0' cy='0' r='35' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(62,153)'><circle cx='0' cy='0' r='86' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(74,28)'><circle cx='0' cy='0' r='88' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(112,291)'><circle cx='0' cy='0' r='78' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(123,164)'><circle cx='0' cy='0' r='38' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(258,112)'><circle cx='0' cy='0' r='43' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(454,217)'><circle cx='0' cy='0' r='33' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(396,314)'><circle cx='0' cy='0' r='108' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(431,436)'><circle cx='0' cy='0' r='67' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(242,414)'><circle cx='0' cy='0' r='35' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(84,429)'><circle cx='0' cy='0' r='43' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(55,269)'><circle cx='0' cy='0' r='66' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(27,30)'><circle cx='0' cy='0' r='21' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(205,286)'><circle cx='0' cy='0' r='28' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(156,161)'><circle cx='0' cy='0' r='45' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(281,146)'><circle cx='0' cy='0' r='49' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(434,124)'><circle cx='0' cy='0' r='94' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(474,189)'><circle cx='0' cy='0' r='38' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(371,289)'><circle cx='0' cy='0' r='76' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(464,417)'><circle cx='0' cy='0' r='52' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(269,384)'><circle cx='0' cy='0' r='36' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(120,301)'><circle cx='0' cy='0' r='40' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(16,16)'><circle cx='0' cy='0' r='20' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(206,320)'><circle cx='0' cy='0' r='53' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(155,184)'><circle cx='0' cy='0' r='37' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(302,180)'><circle cx='0' cy='0' r='42' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(461,59)'><circle cx='0' cy='0' r='26' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(291,369)'><circle cx='0' cy='0' r='65' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(139,469)'><circle cx='0' cy='0' r='36' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(128,280)'><circle cx='0' cy='0' r='42' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(330,195)'><circle cx='0' cy='0' r='48' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(456,33)'><circle cx='0' cy='0' r='53' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(352,210)'><circle cx='0' cy='0' r='47' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(137,100)'><circle cx='0' cy='0' r='61' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(275,34)'><circle cx='0' cy='0' r='59' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(153,420)'><circle cx='0' cy='0' r='99' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(50,358)'><circle cx='0' cy='0' r='39' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(203,223)'><circle cx='0' cy='0' r='24' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(97,153)'><circle cx='0' cy='0' r='48' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(389,35)'><circle cx='0' cy='0' r='38' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(41,443)'><circle cx='0' cy='0' r='31' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(107,338)'><circle cx='0' cy='0' r='21' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(313,82)'><circle cx='0' cy='0' r='22' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(41,378)'><circle cx='0' cy='0' r='28' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(29,428)'><circle cx='0' cy='0' r='34' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(144,388)'><circle cx='0' cy='0' r='18' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
 <g transform='translate(250,250)'><circle cx='0' cy='0' r='20' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>D</text></g>
 </svg>

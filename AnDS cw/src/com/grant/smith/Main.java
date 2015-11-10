@@ -14,7 +14,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		try{ //VRClarkWrightSolution
+		try{ //VRClarkeWrightSolution
 
 			Pattern problemFilePattern = Pattern.compile("prob\\.csv");
 
@@ -22,7 +22,8 @@ public class Main {
 			ArrayList<File> files = new ArrayList<File>();
 			for (final File f : folder.listFiles()) {
 				if(problemFilePattern.matcher(f.getName()).find())
-					files.add(f);
+					if(!f.getName().contains("fail"))
+						files.add(f);
 			}
 			int[] times = new int[files.size()];
 			
@@ -30,7 +31,7 @@ public class Main {
 			for(File f : files){
 				VRPartitionSolution vrS = new VRPartitionSolution(new VRProblem(testDataFolder + f.getName()));
 				
-				int loops = 100;
+				int loops = 1;
 				long startTime = System.currentTimeMillis();
 				for(int i = 0; i < loops; i++){
 					vrS.solve();
@@ -42,13 +43,13 @@ public class Main {
 				
 //				System.out.println("Time taken for " + loops + " loops = " + times[fileNo] + "ms");
 //				System.out.println("Avg time " + (int)(times[fileNo]/loops) + "ms");
-//				System.out.println((int)(times[fileNo]/loops));
+				System.out.println((int)(times[fileNo]/loops));
 				
 				vrS.writeSVG(resultsFolder +  fileName + "prob.svg", resultsFolder + fileName + "solu.svg");
 				vrS.writeOut(resultsFolder + fileName + "solu.csv");
 //				System.out.println(vrS.soln.size());
 				System.out.println(vrS.solnCost());
-//				System.out.println("vrS.verify() returned " + vrS.verify());
+				System.out.println("vrS.verify() returned " + vrS.verify());
 				fileNo++;
 				
 			}

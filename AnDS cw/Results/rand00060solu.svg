@@ -1,15 +1,15 @@
 <?xml version='1.0'?>
 <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' '../../svg11-flat.dtd'>
 <svg width='8cm' height='8cm' viewBox='0 0 500 500' xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<path d='M250.0 250.0 L431.0 46.0L471.0 41.0L478.0 58.0L459.0 140.0L422.0 173.0z' stroke='chocolate' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L331.0 341.0L337.0 337.0L329.0 361.0L386.0 344.0L410.0 285.0L467.0 216.0L370.0 268.0z' stroke='cornflowerblue' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L207.0 217.0L197.0 282.0L171.0 280.0L154.0 456.0L91.0 454.0L68.0 447.0L132.0 382.0L185.0 344.0L204.0 290.0z' stroke='chocolate' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L331.0 341.0L337.0 337.0L329.0 361.0L386.0 344.0L410.0 285.0L370.0 268.0z' stroke='cornflowerblue' fill='none' stroke-width='2'/>
 <path d='M250.0 250.0 L222.0 344.0L225.0 416.0L215.0 425.0L197.0 449.0L206.0 455.0L232.0 477.0L249.0 482.0L278.0 482.0L282.0 341.0z' stroke='crimson' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L207.0 217.0L197.0 282.0L171.0 280.0L154.0 456.0L91.0 454.0L68.0 447.0L132.0 382.0L185.0 344.0L204.0 290.0z' stroke='cyan' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L119.0 261.0L107.0 274.0L53.0 272.0L37.0 373.0L138.0 289.0z' stroke='darkblue' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L92.0 176.0L92.0 156.0L49.0 153.0L21.0 192.0L75.0 242.0z' stroke='darkcyan' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L139.0 157.0L102.0 159.0L144.0 103.0L49.0 111.0L128.0 7.0L171.0 12.0L268.0 35.0L273.0 67.0z' stroke='darkgoldenrod' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L119.0 261.0L107.0 274.0L53.0 272.0L37.0 373.0L138.0 289.0z' stroke='cyan' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L92.0 176.0L92.0 156.0L49.0 153.0L21.0 192.0L75.0 242.0z' stroke='darkblue' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L139.0 157.0L102.0 159.0L49.0 111.0L128.0 7.0L171.0 12.0L144.0 103.0z' stroke='darkcyan' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L320.0 134.0L314.0 102.0L273.0 67.0L268.0 35.0L467.0 216.0L422.0 173.0L399.0 195.0z' stroke='darkgoldenrod' fill='none' stroke-width='2'/>
 <path d='M250.0 250.0 L375.0 436.0L454.0 448.0L463.0 480.0L467.0 472.0L480.0 448.0L492.0 322.0z' stroke='chocolate' fill='none' stroke-width='2'/>
-<path d='M250.0 250.0 L399.0 195.0L320.0 134.0L358.0 87.0L375.0 78.0L352.0 35.0L314.0 102.0z' stroke='cornflowerblue' fill='none' stroke-width='2'/>
+<path d='M250.0 250.0 L358.0 87.0L375.0 78.0L352.0 35.0L431.0 46.0L471.0 41.0L478.0 58.0L459.0 140.0z' stroke='cornflowerblue' fill='none' stroke-width='2'/>
 <g transform='translate(422,173)'><circle cx='0' cy='0' r='10' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>8</text></g>
 <g transform='translate(386,344)'><circle cx='0' cy='0' r='10' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>5</text></g>
 <g transform='translate(222,344)'><circle cx='0' cy='0' r='10' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>9</text></g>
@@ -70,14 +70,14 @@
 <g transform='translate(132,382)'><circle cx='0' cy='0' r='10' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>4</text></g>
 <g transform='translate(314,102)'><circle cx='0' cy='0' r='10' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>3</text></g>
 <g transform='translate(331,341)'><circle cx='0' cy='0' r='10' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>3</text></g>
-<g transform='translate(419,133)'><circle cx='0' cy='0' r='105' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(419,271)'><circle cx='0' cy='0' r='127' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(261,439)'><circle cx='0' cy='0' r='102' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(167,299)'><circle cx='0' cy='0' r='177' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(63,335)'><circle cx='0' cy='0' r='92' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(63,182)'><circle cx='0' cy='0' r='61' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(195,63)'><circle cx='0' cy='0' r='153' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(471,377)'><circle cx='0' cy='0' r='112' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(383,154)'><circle cx='0' cy='0' r='123' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(133,384)'><circle cx='0' cy='0' r='181' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(357,365)'><circle cx='0' cy='0' r='97' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(255,411)'><circle cx='0' cy='0' r='75' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(84,292)'><circle cx='0' cy='0' r='93' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(66,201)'><circle cx='0' cy='0' r='52' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(119,107)'><circle cx='0' cy='0' r='108' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(361,146)'><circle cx='0' cy='0' r='144' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(410,423)'><circle cx='0' cy='0' r='129' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(416,93)'><circle cx='0' cy='0' r='86' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
 <g transform='translate(250,250)'><circle cx='0' cy='0' r='20' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>D</text></g>
 </svg>

@@ -4,10 +4,11 @@ import java.util.*;
 import java.io.*;
 
 
-public class VRClarkWrightSolution {
+public class VRClarkeWrightSolution {
 	public VRProblem prob;
 	public List<Route>soln;
-	public VRClarkWrightSolution(VRProblem problem){
+	
+	public VRClarkeWrightSolution(VRProblem problem){
 		this.prob = problem;
 	}
 
@@ -21,33 +22,26 @@ public class VRClarkWrightSolution {
 		}
 	}
 
-	//Students should implement another solution
+	// Clarke Wright solver function
 	public void solve(){
 		oneRoutePerCustomerSolution();
 
-		boolean merged = true;
-
-		while(merged){
-			merged = false;
-			List<SavingsNode> savings = getSavings();
-			for (SavingsNode savingsNode : savings) {
-				Route route0 = routeWhereCustomerIsLast(savingsNode.ci);
-				if(route0 != null){
-					Route route2 = routeWhereCustomerIsFirst(savingsNode.cj);
-					if(route2 != null){
-						if(route0 == route2){ continue;}
-						if (route0.demand + route2.demand <= prob.depot.c) { // if merge is feasible
-							// Merge the two routes
-							soln.remove(route2);
-							route0.mergeRoutes(route2);
-							merged = true;
-						}
+		List<SavingsNode> savings = getSavings();
+		for (SavingsNode savingsNode : savings) {
+			Route route0 = routeWhereCustomerIsLast(savingsNode.ci);
+			if(route0 != null){
+				Route route1 = routeWhereCustomerIsFirst(savingsNode.cj);
+				if(route1 != null){
+					if(route0 == route1){ continue;}
+					if (route0.demand + route1.demand <= prob.depot.c) { // if merge is feasible
+						// Merge the two routes
+						soln.remove(route1);
+						route0.mergeRoutes(route1);
 					}
 				}
 			}
-		}	
-		
-		
+		}
+
 	}
 
 	private Route routeWhereCustomerIsLast(Customer c){

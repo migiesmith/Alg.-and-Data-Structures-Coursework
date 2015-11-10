@@ -61,14 +61,14 @@
 <g transform='translate(132,382)'><circle cx='0' cy='0' r='10' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>4</text></g>
 <g transform='translate(314,102)'><circle cx='0' cy='0' r='10' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>3</text></g>
 <g transform='translate(331,341)'><circle cx='0' cy='0' r='10' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>3</text></g>
-<g transform='translate(419,133)'><circle cx='0' cy='0' r='105' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(419,271)'><circle cx='0' cy='0' r='127' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(261,439)'><circle cx='0' cy='0' r='102' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(167,299)'><circle cx='0' cy='0' r='177' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(63,335)'><circle cx='0' cy='0' r='92' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(63,182)'><circle cx='0' cy='0' r='61' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(195,63)'><circle cx='0' cy='0' r='153' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(471,377)'><circle cx='0' cy='0' r='112' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(383,154)'><circle cx='0' cy='0' r='123' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(133,384)'><circle cx='0' cy='0' r='181' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(357,365)'><circle cx='0' cy='0' r='97' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(255,411)'><circle cx='0' cy='0' r='75' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(84,292)'><circle cx='0' cy='0' r='93' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(66,201)'><circle cx='0' cy='0' r='52' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(119,107)'><circle cx='0' cy='0' r='108' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(361,146)'><circle cx='0' cy='0' r='144' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(410,423)'><circle cx='0' cy='0' r='129' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
+<g transform='translate(416,93)'><circle cx='0' cy='0' r='86' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
 <g transform='translate(250,250)'><circle cx='0' cy='0' r='20' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>D</text></g>
 </svg>
