@@ -1,4 +1,3 @@
-
 package com.grant.smith;
 
 import java.util.*;
@@ -7,8 +6,12 @@ import java.io.*;
 
 
 public class VRPartitionSolution {
+	
+	// Stores the information about the problem
 	public VRProblem prob;
+	// Stores the solution after solve() is ran
 	public List<Route> soln;
+	// Stores the circles used to create the solution
 	ArrayList<Circle> circles;
 	
 	public VRPartitionSolution(VRProblem problem){
@@ -18,21 +21,27 @@ public class VRPartitionSolution {
 	//Students should implement another solution
 	public void solve(){
 		
+		// Create a circle that encompasses all nodes
 		Circle root = new Circle(prob.depot.x, prob.depot.y, 0.0);
 		for(Customer c : prob.customers){
 			root.add(c);
 		}
+		// Shrink the circle so that it just covers all of the nodes within it
 		root.shrink();
 		
+		// Create the list to contain all off the circles
 		circles = new ArrayList<Circle>();
+		// Add the first circle to the list
 		circles.add(root);
 
 		boolean overCap = true;
 		while(overCap){
 			overCap = false;
 			for(int i = 0; i < circles.size(); i++){
+				// Get the circle for this iteration
 				Circle c = circles.get(i);
-				if(!c.keepAlive()) { circles.remove(i); continue;}
+				// Check if this circle should be kept (if is contains any nodes)
+				if(!c.keepAlive()) { circles.remove(i); continue;} // If this circle shouldn't be kept, remove it
 				if(c.demand > prob.depot.c){
 					// Get the farthest node in this circle
 					Customer farthest = c.farthestNode();
@@ -45,8 +54,6 @@ public class VRPartitionSolution {
 					// Loop through all the circles and try to steal nodes
 					for(Circle others : circles){
 						newC.steal(others);
-						if(others.demand > prob.depot.c || newC.demand > prob.depot.c)
-							overCap = true;
 						if(others.demand <= prob.depot.c)
 							others.canBeStolenFrom = false;
 					}
@@ -62,31 +69,41 @@ public class VRPartitionSolution {
 
 			}
 
+			// Merge all circles if they cross over and merging them wouldn't put them over capacity
 			boolean merged = true;
-			while(merged){
+			while(merged){ // If there was a merge, check again to see if there are any more
 				merged = false;
+				// Loop through every circle for each circle
 				for(int i = 0; i < circles.size()-1; i++){
-					for(int j = i+1; j < circles.size(); j++){
-						if(i == j) continue;
+					for(int j = i+1; j < circles.size(); j++){ // Don't loop through circles that have already checked this circle
+						// Get circle ci and circle cj						
 						Circle ci = circles.get(i);
 						Circle cj = circles.get(j);
+						// Check if they should be merged
 						if((ci.demand + cj.demand <= prob.depot.c) && (ci.pos.distance(cj.pos) <= ci.radius*2 + cj.radius*2)){
+							// merge the circles
 							circles.remove(cj);
 							ci.mergeRoutes(cj);
+							// Shrink the circle so that it just covers all of the nodes within it
 							ci.shrink();
+							// state that there was a merge
 							merged = true;
 						}
 					}
 				}
 			}
 			
+			// Resize and reposition all of the circles depending on the farthest node within them and their position
 			for(int i = 0; i < circles.size(); i++){
 				Circle c = circles.get(i);
 				Customer farthest = c.farthestNode();
 				if(farthest == null){ circles.remove(i); continue;}
+				// Get the midpoint between the circle's position and the farthest node's position
 			    double mx = (farthest.x + c.pos.x)/2;
 			    double my = (farthest.y + c.pos.y)/2;
+			    // Set the circle's position to the calculated midpoint
 				c.pos.setLocation(mx, my);
+				// Shrink the circle so that it just covers all of the nodes within it
 				c.shrink();
 				
 			}

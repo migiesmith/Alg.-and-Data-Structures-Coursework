@@ -1,12 +1,11 @@
 package com.grant.smith;
 
-import javafx.util.Pair;
-
 
 public class SavingsNode implements Comparable<SavingsNode> {
 
-	// Requirements of the customer (number to be delivered)
+	// Saving to be made
 	public final double saving;
+	// Customers that make the saving
 	public final Customer ci, cj;
 	
 	public SavingsNode(Customer ci, Customer cj, double saving){
@@ -15,11 +14,9 @@ public class SavingsNode implements Comparable<SavingsNode> {
 		this.saving = saving;
 	}
 
+	// Comparator for sorting
 	public int compareTo(SavingsNode sj) {
 		return saving < sj.saving ? 1 : saving == sj.saving ? 0 : -1;
 	}
 	
-	public String toString(){
-		return ci + ", " + cj + ", " + saving;
-	}
 }

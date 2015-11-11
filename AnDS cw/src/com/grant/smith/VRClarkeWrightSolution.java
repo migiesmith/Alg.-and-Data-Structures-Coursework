@@ -5,8 +5,11 @@ import java.io.*;
 
 
 public class VRClarkeWrightSolution {
+	
+	// Stores the information about the problem
 	public VRProblem prob;
-	public List<Route>soln;
+	// Stores the solution after solve() is ran
+	public List<Route> soln;
 	
 	public VRClarkeWrightSolution(VRProblem problem){
 		this.prob = problem;
@@ -24,15 +27,21 @@ public class VRClarkeWrightSolution {
 
 	// Clarke Wright solver function
 	public void solve(){
+		// Create a route for each customer
 		oneRoutePerCustomerSolution();
-
+		
+		// Calculate the savings list for the problem
 		List<SavingsNode> savings = getSavings();
+		
+		// Loop through each saving
 		for (SavingsNode savingsNode : savings) {
+			// Get the route where ci is the first customer
 			Route route0 = routeWhereCustomerIsLast(savingsNode.ci);
-			if(route0 != null){
+			if(route0 != null){ // check if we found a route for route0
+				// Get the route where cj is the first customer
 				Route route1 = routeWhereCustomerIsFirst(savingsNode.cj);
-				if(route1 != null){
-					if(route0 == route1){ continue;}
+				if(route1 != null){ // check if we found a route for route1
+					if(route0 == route1){ continue;} // if route0 and route1 are the same, do nothing
 					if (route0.demand + route1.demand <= prob.depot.c) { // if merge is feasible
 						// Merge the two routes
 						soln.remove(route1);
@@ -44,6 +53,7 @@ public class VRClarkeWrightSolution {
 
 	}
 
+	// returns a route where c is the last element in a route
 	private Route routeWhereCustomerIsLast(Customer c){
 		for(Route r : soln){
 			if(r.getEnd() == c) return r;
@@ -51,6 +61,7 @@ public class VRClarkeWrightSolution {
 		return null;
 	}
 
+	// returns a route where c is the first element in a route
 	private Route routeWhereCustomerIsFirst(Customer c){
 		for(Route r : soln){
 			if(r.getStart() == c) return r;
@@ -58,20 +69,26 @@ public class VRClarkeWrightSolution {
 		return null;
 	}
 
+	// Calculates the savings list
 	public List<SavingsNode> getSavings(){
+		// Create a list of customers for the savings list to use
 		List<Customer> customers = new ArrayList<Customer>();
+		// loop through every route
 		for(Route r : soln){
 			if(r.demand < prob.depot.c){
+				// add the start of the route to the list
 				customers.add(r.getStart());
+				// if the route is larger than just 1 element, add the end as well
 				if(r.size() > 1)
 					customers.add(r.getEnd());
 			}
 		}
 		
-		
+		// Create the savings list
 		List<SavingsNode> savings = new ArrayList<SavingsNode>();
+		// Loop through each node and add the relative savings to the savings list if there is a saving to be made
 		for(int i = 0; i < customers.size(); i++){
-			for(int j = 0; j < customers.size(); j++){
+			for(int j = i; j < customers.size(); j++){
 				if(i == j) continue;
 				Customer ci = customers.get(i);
 				Customer cj = customers.get(j);
@@ -80,6 +97,7 @@ public class VRClarkeWrightSolution {
 					savings.add(new SavingsNode(ci,cj,saving));
 			}
 		}
+		// Sort the list into descending order
 		Collections.sort(savings);
 		return savings;
 	}

@@ -13,8 +13,8 @@
    version="1.1"
    id="svg2"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="reportExample.svg"
-   inkscape:export-filename="E:\Users\Graham\Desktop\uni\yr 3\AnDS\cw\AnDS cw\Report files\PartitionComplete.png"
+   sodipodi:docname="partitionExamples.svg"
+   inkscape:export-filename="E:\Users\Graham\Desktop\uni\yr 3\AnDS\cw\AnDS cw\Report files\PartitionStageTwo.png"
    inkscape:export-xdpi="360"
    inkscape:export-ydpi="360">
   <metadata
@@ -45,18 +45,18 @@
      id="namedview62"
      showgrid="false"
      inkscape:zoom="2.3548227"
-     inkscape:cx="110.54827"
+     inkscape:cx="61.712322"
      inkscape:cy="153.83874"
      inkscape:window-x="1352"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="layer1" />
   <g
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Line Layer"
      sodipodi:insensitive="true"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:none;stroke:#d2691e;stroke-width:2"
        inkscape:connector-curvature="0"
@@ -257,7 +257,7 @@
      inkscape:label="Small Circles DONE"
      style="display:inline">
     <g
-       transform="translate(249.99999,299.99999)"
+       transform="translate(249.99999,303.52777)"
        id="g44"
        style="stroke-width:1.23472226;stroke-miterlimit:4;stroke-dasharray:none">
       <circle
