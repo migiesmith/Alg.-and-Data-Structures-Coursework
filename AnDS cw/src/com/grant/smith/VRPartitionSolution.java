@@ -104,7 +104,7 @@ public class VRPartitionSolution {
 		soln.addAll(circles);
 		
 		//Remove the circles so that they don't render
-		//circles.clear();
+		circles.clear();
 		
 	}
 	

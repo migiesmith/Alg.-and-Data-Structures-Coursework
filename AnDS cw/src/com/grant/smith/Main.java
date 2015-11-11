@@ -31,7 +31,7 @@ public class Main {
 			for(File f : files){
 				VRPartitionSolution vrS = new VRPartitionSolution(new VRProblem(testDataFolder + f.getName()));
 				
-				int loops = 1;
+				double loops = 1;
 				long startTime = System.currentTimeMillis();
 				for(int i = 0; i < loops; i++){
 					vrS.solve();
@@ -43,7 +43,7 @@ public class Main {
 				
 //				System.out.println("Time taken for " + loops + " loops = " + times[fileNo] + "ms");
 //				System.out.println("Avg time " + (int)(times[fileNo]/loops) + "ms");
-				System.out.println((int)(times[fileNo]/loops));
+				System.out.println(times[fileNo]/loops);
 				
 				vrS.writeSVG(resultsFolder +  fileName + "prob.svg", resultsFolder + fileName + "solu.svg");
 				vrS.writeOut(resultsFolder + fileName + "solu.csv");

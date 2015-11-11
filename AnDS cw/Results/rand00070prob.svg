@@ -71,13 +71,5 @@
 <g transform='translate(303,60)'><circle cx='0' cy='0' r='10' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>4</text></g>
 <g transform='translate(363,488)'><circle cx='0' cy='0' r='10' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>6</text></g>
 <g transform='translate(203,79)'><circle cx='0' cy='0' r='10' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>3</text></g>
-<g transform='translate(243,233)'><circle cx='0' cy='0' r='180' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(127,144)'><circle cx='0' cy='0' r='100' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(70,378)'><circle cx='0' cy='0' r='169' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(191,443)'><circle cx='0' cy='0' r='116' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(354,381)'><circle cx='0' cy='0' r='214' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(417,341)'><circle cx='0' cy='0' r='146' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(65,90)'><circle cx='0' cy='0' r='97' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(330,73)'><circle cx='0' cy='0' r='64' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
 <g transform='translate(250,250)'><circle cx='0' cy='0' r='20' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>D</text></g>
 </svg>

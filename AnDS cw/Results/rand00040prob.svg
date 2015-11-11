@@ -41,10 +41,5 @@
 <g transform='translate(127,410)'><circle cx='0' cy='0' r='10' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>6</text></g>
 <g transform='translate(199,73)'><circle cx='0' cy='0' r='10' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>7</text></g>
 <g transform='translate(390,440)'><circle cx='0' cy='0' r='10' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>5</text></g>
-<g transform='translate(250,250)'><circle cx='0' cy='0' r='186' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(355,367)'><circle cx='0' cy='0' r='130' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(245,430)'><circle cx='0' cy='0' r='146' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(356,162)'><circle cx='0' cy='0' r='249' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
-<g transform='translate(407,425)'><circle cx='0' cy='0' r='107' fill='none' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'></text></g>
 <g transform='translate(250,250)'><circle cx='0' cy='0' r='20' fill='pink' stroke='black' stroke-width='1'/><text text-anchor='middle' y='5'>D</text></g>
 </svg>
